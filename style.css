@@ -1,0 +1,130 @@
+* {
+    /* border: 1px solid red; */
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rosybrown;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+.navbar-name {
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.nav-item {
+    padding: 10px;
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+.breathe-text {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-text {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign-in-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.email-input, .password-input, .need-help {
+    font-size: small;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.new-text {
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.forgot-password {
+    float: right;
+}
+
+button {
+    color: black;
+    width: fit-content;
+}
+
+button:hover {
+    color:darkgreen;
+}
+
+.create-new {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.new {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+    color: white;
+}
